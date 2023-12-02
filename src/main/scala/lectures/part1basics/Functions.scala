@@ -17,9 +17,13 @@ object Functions extends App {
 
   def aRepeatedFunction(aString: String, n: Int): String = {
     if (n == 1) aString
-    else aString + aRepeatedFunction(aString, n-1)
+    else aString + aRepeatedFunction(aString, n - 1)
   }
+  println(aRepeatedFunction("hello..",3))
 
-  println(aRepeatedFunction("hello-",3))
+  // WHEN YOU NEED LOOPS USE RECURSIONS.
+
+  def aFunctionWithSideEffects(aString: String): Unit = println(aString)
+
 
 }
