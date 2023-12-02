@@ -1,11 +1,14 @@
 package lectures.part1basics
 
+/**
+ * Created by suelspahiu on 11/30/23 @ 1:11 AM
+ */
 object Expressions extends App {
 
   val x = 1 + 2 // EXPRESSION
   println(x)
 
-  println(2 + 3 * 4)
+  println(2 + 3 + 4)
   // + - * / & | ^ << >> >>> (right shift with zero extension)
 
   println(1 == x)
@@ -15,19 +18,20 @@ object Expressions extends App {
   // ! && ||
 
   var aVariable = 2
-  aVariable += 3 // also works with -= *= /= ..... side effects
+  aVariable += 3 // also works with -= *= /=
   println(aVariable)
 
-  // Instructions (DO) vs Expressions (VALUE)
+  // Instructions (DO) vs Expressions
 
   // IF expression
   val aCondition = true
-  val aConditionedValue = if(aCondition) 5 else 3 // IF EXPRESSION
+  val aConditionedValue = if(aCondition) 5 else 3
   println(aConditionedValue)
   println(if(aCondition) 5 else 3)
   println(1 + 3)
 
   var i = 0
+//  while (i < 10) {
   val aWhile = while (i < 10) {
     println(i)
     i += 1
@@ -42,7 +46,7 @@ object Expressions extends App {
 
   // side effects: println(), whiles, reassigning
 
-  // Code blocks
+  // code blocks
 
   val aCodeBlock = {
     val y = 2
@@ -51,7 +55,7 @@ object Expressions extends App {
     if (z > 2) "hello" else "goodbye"
   }
 
-  // 1. difference between "hello world" vs println("hello world")?
+  // 1. difference between "hello world" vs println("hello world")
   // 2.
 
   val someValue = {
@@ -64,5 +68,4 @@ object Expressions extends App {
     42
   }
   println(someOtherValue)
-
 }

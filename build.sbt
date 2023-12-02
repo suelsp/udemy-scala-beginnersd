@@ -1,5 +1,8 @@
-name := "udemy-scala-beginners"
+ThisBuild / version := "0.1.0-SNAPSHOT"
 
-version := "0.1"
+ThisBuild / scalaVersion := "3.3.1"
 
-scalaVersion := "3.0.2"
+lazy val root = (project in file("."))
+  .settings(
+    name := "udemy-scala-beginners"
+  )
