@@ -41,7 +41,7 @@
 # .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
-# .idea/modules
+ .idea/modules
 # *.iml
 # *.ipr
 
@@ -83,7 +83,9 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml
+ .idea/misc.xml
+ .idea/sbt.xml
+ .idea/modules/
 # *.ipr
 
 # Sonarlint plugin
