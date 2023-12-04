@@ -41,9 +41,10 @@
 # .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
- .idea/modules
+ .idea/modules/*.iml
 # *.iml
 # *.ipr
+.bsp/*.json
 
 # CMake
 cmake-build-*/

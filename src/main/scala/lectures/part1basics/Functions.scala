@@ -1,8 +1,9 @@
 package lectures.part1basics
 
 /**
- * Created by suelspahiu on 12/2/23 @ 1:14 AM
+ * Created by suelsp on ${DATE} @ ${TIME}
  */
+
 object Functions extends App {
 
   def aFunction(a:String, b:Int): String = {
@@ -25,5 +26,7 @@ object Functions extends App {
 
   def aFunctionWithSideEffects(aString: String): Unit = println(aString)
 
-
+  /**
+  Created by suelsp on ${DATE} @ ${TIME}
+   */
 }

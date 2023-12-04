@@ -1,7 +1,7 @@
 package lectures.part1basics
 
 /**
- * Created by suelspahiu on 11/30/23 @ 1:11 AM
+ * Created by suelsp on ${DATE} @ ${TIME}
  */
 object Expressions extends App {
 
